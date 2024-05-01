@@ -14,18 +14,18 @@ function ShippingServiceRight() {
       </p>
       <div className="w-full flex flex-wrap items-center gap-1">
         <button className="flex w-[100%] md:w-[135px] items-center justify-between bg-[#8b03ff] p-2 rounded-[50px] my-5">
-          <p className="w-full felx justify-center text-white font-bold">
+          <a href="" className="w-full felx justify-center text-white font-bold">
             سفیر هستم
-          </p>
+          </a>
           <IoIosArrowBack color="white" />
         </button>
         <button className="flex w-[100%] md:w-[135px] items-center justify-between bg-[#fec725] p-2 rounded-[50px] ">
-          <p className="w-full felx justify-center font-bold">کسب و کار دارم</p>
+          <a href="" className="w-full felx justify-center font-bold">کسب و کار دارم</a>
           <IoIosArrowBack />
         </button>
       </div>
       <figure className="hidden lg:flex md:ms-[100px]">
-        <img src={vector} alt="" className="h-[220px]" />
+        <img src={vector} alt="" className="h-[250px]" />
       </figure>
     </div>
   );
