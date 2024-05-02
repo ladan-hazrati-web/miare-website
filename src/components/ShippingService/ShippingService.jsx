@@ -5,7 +5,7 @@ import ShippingServiceLeft from "./ShippingServiceLeft";
 function ShippingService() {
   return (
     <div className="w-[100%] flex justify-center">
-      <div className="w-full 2xl:container flex flex-wrap bg-[#fbfbfd] py-[50px] xl:px-[100px]">
+      <div className="w-full 2xl:container flex flex-wrap  bg-[#fbfbfd] pt-[50px] xl:px-[150px]">
             <ShippingServiceRight />
             <ShippingServiceLeft />
       </div>

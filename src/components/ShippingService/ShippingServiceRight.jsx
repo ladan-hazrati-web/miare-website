@@ -2,8 +2,8 @@ import vector from "../../assets/img/Vector-4-2.svg";
 import { IoIosArrowBack } from "react-icons/io";
 function ShippingServiceRight() {
   return (
-    <div className="w-full md:w-[50%] px-8 sm:px-16 flex flex-wrap md:mt-[150px]">
-      <h1 className="text-center font-bold text-3xl md:text-right">
+    <div className="w-full md:w-[60%] px-8 sm:px-16 flex flex-wrap md:mt-[50px] xl:mt-[100px]">
+      <h1 className="text-center font-extrabold text-3xl md:text-right">
         سرویس ارسال سریع میاره
       </h1>
       <p className="my-[25px] text-justify">
@@ -13,7 +13,7 @@ function ShippingServiceRight() {
         مشتریان را نداشته باشند.
       </p>
       <div className="w-full flex flex-wrap items-center gap-1">
-        <button className="flex w-[100%] md:w-[135px] items-center justify-between bg-[#8b03ff] p-2 rounded-[50px] my-5">
+        <button className="flex w-[100%] md:w-[135px] items-center justify-between bg-[#8b03ff] p-2 rounded-[50px] my-4">
           <a href="" className="w-full felx justify-center text-white font-bold">
             سفیر هستم
           </a>
@@ -24,7 +24,7 @@ function ShippingServiceRight() {
           <IoIosArrowBack />
         </button>
       </div>
-      <figure className="hidden lg:flex md:ms-[100px]">
+      <figure className="hidden lg:flex md:ms-[70px]">
         <img src={vector} alt="" className="h-[250px]" />
       </figure>
     </div>
